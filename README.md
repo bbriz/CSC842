@@ -1,10 +1,10 @@
-#JOP Dispatcher 
+#JOP dispatcher 
 
 This program is intended to discover potential JOP dispatcher gadgets that could be 
 utilized for Jump-oriented Programming for purposes of binary exploitation. JOP is 
 similar to Return-oriented Programming (ROP) and works on similar ideas, but very different.
 
-#JOP Background
+#JOP background
 In JOP, one establishes a dispatcher gadget, that adds, subtracts, or dereferences in a
 predictable way, such as the following:
 add ebx, 0x10 
@@ -29,7 +29,7 @@ reveal a large number of possible JOP dispatcher gadgets. Any of these dispatche
 would work perfectly, although it should be pointed out that not everything else necessary
 to get a JOP functional could be present in the binary. 
 
-#Problems with JOP Dispatcher Gadgets
+#Problems with JOP dispatcher gadgets
 In actual practice, having additional lines of Assembly between the first and terminal part of 
 the dispatcher gadget is acceptable. The problem with this is that it can induce side effects, 
 which could make some registers unavailable for other purposes, or the side effects could 
