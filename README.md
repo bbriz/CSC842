@@ -1,4 +1,4 @@
-#JOP dispatcher 
+#JOP dispatcher finder
 
 This program is intended to discover potential JOP dispatcher gadgets that could be 
 utilized for Jump-oriented Programming for purposes of binary exploitation. JOP is 
@@ -59,7 +59,7 @@ currently running binary. If there are any problems, pick another. Avoid massive
 or ones that link to tons of binaries, as it will take up a lot more time to search.
 
 In the command line of Immunity Debugger towards the bottom of the screen, enter the command
-!JOP-Dispatcher
+!Dispatcher2
 It will run and say finished at the bottom. Hit Alt-L to view the log or go to View and select Log 
 to view results. 
 
