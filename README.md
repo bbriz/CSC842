@@ -1,3 +1,3 @@
-# Tutorial
+# JOP Dispatcher 
 
-This is my tutorial repository.
+This is my repository.
