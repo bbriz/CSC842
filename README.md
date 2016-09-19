@@ -1,5 +1,7 @@
 #JOP dispatcher finder
 
+****The dis2.py is the new and updated version!!
+
 This program is intended to discover potential JOP dispatcher gadgets that could be 
 utilized for Jump-oriented Programming for purposes of binary exploitation. JOP is 
 similar to Return-oriented Programming (ROP) and works on similar ideas, but very different.
